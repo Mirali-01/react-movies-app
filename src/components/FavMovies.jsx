@@ -1,8 +1,10 @@
 import React from 'react'
 
-const FavMovies = () => {
+const FavMovies = (props) => {
   return (
-    <div className='favorite' >FavMovies</div>
+    <div className='favorite' >
+      <img src={props.poster.Poster} alt="Favorite Movie" />
+    </div>
   )
 }
 

@@ -13,28 +13,61 @@ code {
     monospace;
 }
 
-.formBox{
-  border: solid rebeccapurple;
+.App {
+  border: solid black;
+  height: 150vh;
+}
+
+.navbar {
+  /* border: ridge; */
+  height: 15vh;
   display: flex;
+  justify-content: space-between;
+}
+
+.centerNav {
+  /* border: ridge; */
+  height: 100%;
+  width: 20vh;
+}
+
+.formBox {
+  /* border: solid rebeccapurple; */
+  display: flex;
+  height: 5vh;
   justify-content: center;
 }
 
-.movieDetails{
-  border: solid green;
-  display: flex;
+input {
+  height: 4.5vh;
+  width: 20vh;
 }
 
-.left{
+.movieDetails {
+  border: solid green;
+  display: flex;
+  /* background-image: url("https://www.freepnglogos.com/uploads/film-reel-png/film-reel-lunastudioarte-tirinhas-filme-para-montagens-2.png");
+  background-size: cover; */
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
+}
+
+.left {
   border: solid magenta;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.right{
+.right {
   border: solid aqua;
 }
 
-.favorite{
+.favorite {
   border: solid blue;
+  height: 50vh;
+  width: 50vh;
 }

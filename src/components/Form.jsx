@@ -23,8 +23,8 @@ const Form = (props) => {
   return (
     <div className='formBox' >
         <form onSubmit={handleSubmit} >
-        <input type="text" name="searchTerm" onChange={handleChange} value={formData.searchTerm} />
-        <input type="submit" value="Submit" />
+        <input className='search' type="text" name="searchTerm"  placeholder='Search movies here' onChange={handleChange} value={formData.searchTerm} />
+        <input className='submit' type="submit" value="Submit" />
         </form>
     </div>
   )
