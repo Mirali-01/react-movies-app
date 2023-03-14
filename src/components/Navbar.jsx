@@ -1,10 +1,11 @@
 import React from 'react'
+import Button from './Button'
 
 const Navbar = (props) => {
   return (
     <div className='navbar'>
       <div className="leftNav">
-
+        <Button fav={"Favorite Movies"} moviePoster={props.moviePoster} />
       </div>
 
       <div className="centerNav">
